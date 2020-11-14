@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Plain JS With OOPS Concepts</title>
+</head>
+<body>
+    <!-- <script src="object_nov11.js"></script> -->
+    <script src="oops_nov14.js"></script>
+    <script>
+        class Student {
+            constructor(){
+                var name;
+                var marks;
+            }
+            getName(){
+                return this.name;
+            }
+            setName(oname){
+                this.name = oname;
+            }
+            getMarks(){
+                return this.marks
+            }
+            setMarks(marks){
+                this.marks = marks
+            }
+
+        }
+        var stud = new Student();
+        stud.setName('Naveen');
+        stud.setMarks(100);
+        console.log(stud.getName() +" "+stud.getMarks());
+    </script>
+    <script>
+        // Prototype Example 
+        function Student(name,mark){
+            var s_name = name;
+            var s_mark = marks;
+            Object.defineProperty(this,"name",{
+                get:function(){
+                    return s_name
+                },
+                set:function(s_name){
+                    this.s_name = s_name;
+                }
+            });
+            Object.defineProperty(this,"marks",{
+                get:function(){
+                    return s_mark
+                },
+                set:function(s_mark){
+                    this.s_mark = s_mark;
+                }
+            })
+        }
+        var stud = new Student("John",60);
+        console.log('object',stud.name);
+    </script>
+</body>
+</html>
