@@ -4,12 +4,14 @@
 // 3. Inheritance - Elimate Redudant Code
 // 4. Polymoriphism - Refactory ugly switchase statement
 
+
 console.log('Hi');
 
 // Encapsulation - Binding data(i.e variable) with the function and act on data
 let baseSalary = 30_000;
 let overTime = 10;
 let rate = 20;
+
 
 
 function getWage(baseSalary,overTime,rate){
