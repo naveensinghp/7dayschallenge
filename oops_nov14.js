@@ -6,7 +6,7 @@
 
 console.log('Hi');
 
-// Encapsulation example 
+// Encapsulation - Binding data(i.e variable) with the function and act on data
 let baseSalary = 30_000;
 let overTime = 10;
 let rate = 20;
@@ -24,7 +24,34 @@ let employee = {
         return this.baseSalary + (this.overTime * this.rate);
     }
 }
-employee.getWage();
+console.log(employee.getWage());
+
+// Encapsulation Example 2 
+
+class Student {
+    constructor(){
+        let name,mark;
+    }
+    getName(){
+        return this.name;
+    }
+    setName(name){
+        this.name = name;
+    }
+    howName(){
+        return this.name;
+    }
+    getMarks(){
+        return this.mark
+    }
+    setMarks(marks){
+        this.mark = marks
+    }
+}
+
+let stu = new Student();
+stu.setName('NaveenSingh');
+console.log(stu.howName());
 
 
 // Abstraction 
