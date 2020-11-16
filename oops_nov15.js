@@ -30,7 +30,7 @@ bobj.show();
 
 class Bank {
     roi(){
-        return 0;
+        return 30;
     }
 }
 
@@ -52,3 +52,26 @@ sbi = new SBI();
 console.log('SBI',sbi.roi());
 ax = new AXIS();
 console.log('AXIS',ax.roi());
+
+
+
+class CSEDepartment {
+
+   hod(){
+     return 'KalaiKumaran';
+   }
+   tutor(){
+       return 'Uma Maheswari';
+   }
+
+}
+
+class ASection extends CSEDepartment{
+    topper(){
+        return 'Krithika';
+    }
+}
+
+res = new ASection();
+console.log('HOD',res.hod());
+console.log('Topper',res.topper());
