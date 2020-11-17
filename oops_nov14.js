@@ -41,7 +41,7 @@ class Student {
         this.name = name;
     }
     howName(){
-        return this.name;
+        return this.name='arya';
     }
     getMarks(){
         return this.mark
