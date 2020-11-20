@@ -12,7 +12,7 @@ class Test {
     }
 }
 // 1. We can directly acess static variable and methods using class name
-console.log(Test.a);
-Test.m2();
+console.log(Test.a); // a =100;
+Test.m2(); // undefined
 
 // We can access non static variables & Method using Object
