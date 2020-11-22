@@ -26,3 +26,27 @@ class Dog extends Animal {
 
 d = new Dog("Blank","Bread");
 d.display();
+
+
+class Players {
+
+    constructor(pname){
+        this.pname = pname
+    }
+    indianCaptain(){
+        console.log(this.pname);
+    }
+    
+    
+}
+
+class IPL extends Players{
+    constructor(pname,vs){
+        super(pname)
+        this.vs = vs;
+    }
+    
+}
+
+ds = new IPL("dhoni",'virat');
+ds.indianCaptain();

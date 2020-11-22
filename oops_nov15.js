@@ -54,24 +54,28 @@ ax = new AXIS();
 console.log('AXIS',ax.roi());
 
 
+class AppleCompany {
 
-class CSEDepartment {
+    ACEO(){
+        console.log("Tim Cook");
+        return 'Tim Cook';
+    }
 
-   hod(){
-     return 'KalaiKumaran';
-   }
-   tutor(){
-       return 'Uma Maheswari';
-   }
+    vp(){
+        return 'SteveJobs'
+    }
 
 }
 
-class ASection extends CSEDepartment{
-    topper(){
-        return 'Krithika';
+
+class GoogleCompany extends AppleCompany{
+    GCEO(){
+        return 'Sundhar';
+    }
+    ACEO(){
+        console.log('Naveeb');
     }
 }
 
-res = new ASection();
-console.log('HOD',res.hod());
-console.log('Topper',res.topper());
+let test = new GoogleCompany;
+test.ACEO();
