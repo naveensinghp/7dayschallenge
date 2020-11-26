@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Plain JS With OOPS Concepts</title>
 </head>
@@ -10,18 +12,20 @@
     <!-- <script src="object_nov11.js"></script> -->
     <!--<script src="oops_nov14.js"></script> -->
     <!-- <script src="oops_nov15.js"></script> -->
-    <script src="array.js"></script>
-    <script src="object_25.js"></script>
+    <!-- <script src="array.js"></script> -->
+    <script src="snowflakes.js"></script>
+
+    <!-- <script src="object_25.js"></script> -->
     <!-- <script src="oops_nov16.js"></script> -->
     <!-- <script src="oops_nov17.js"></script> -->
     <!-- <script src="oops_nov18.js"></script> -->
     <!-- <script src="oops_nov19.js"></script> -->
 
-
-<label for="search"> Search by contact name</label> 
+<!-- <label for="search"> Search by contact name</label> 
 <input id="search" type="text">
 <button>Search</button>   
-<p></p>
+<p></p> -->
+
     <script>
         // Prototype Example 
         function Student(name,mark){
@@ -47,4 +51,21 @@
         var stud = new Student("John",60);
     </script>
 </body>
+<style>
+    body{
+        background-color: #323975;
+    }
+    .fa-snowflake-o{
+        color: #fff;
+        position: absolute;
+        font-size: 40px;
+        top: -20px;
+        animation: fall linear forwards;
+    }
+    @keyframes fall {
+        to {
+            transform: translateY(105vh);
+        }
+    }
+</style>
 </html>
