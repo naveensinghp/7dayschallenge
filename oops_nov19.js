@@ -13,6 +13,21 @@ class Test {
 }
 // 1. We can directly acess static variable and methods using class name
 console.log(Test.a); // a =100;
-Test.m2(); // undefined
+//Test.m2(); // undefined
 
 // We can access non static variables & Method using Object
+
+
+class Person {
+    static firstname='Naveen';
+    lastname = 'Singh';
+    getName(){
+        console.log(this.firstname);
+    }
+    getLastName(){
+        console.log(this.lastname);
+    
+    }
+}
+
+console.log(Person.lastname);
