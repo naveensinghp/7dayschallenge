@@ -18,3 +18,13 @@ const person = {
 //person.greeting();
 
 
+var Swapper = {
+    images : [''],
+    pos: {
+        x : 400,
+        y : 300
+    },
+    onSwap: function(){
+        console.log('TEST');
+    }
+} 
