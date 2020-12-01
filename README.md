@@ -4,6 +4,8 @@
 <b>Day 8 </b> - 23 Nov - Learned Call Stack watched What the heck is the event loop anyway? | Philip Roberts | JSConf EU <br/>
 <b>Day 9 </b> -  ❄ Make it snow ❄ - JavaScript DOM Tutorial <br/>
 <b>Day 10 </b> - Array Foreach <br/>
-<b>Day 11 - Nov 29 Saturday </b> Static Keyword
+<b>Day 11 </b> Static Keyword <br/>
+<b> Day 12 - Dec 1 </b> JavaScript Best Practices - Using Prototypes
+
 
 
