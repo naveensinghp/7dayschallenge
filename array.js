@@ -41,3 +41,52 @@ function multiplyAll(arr){
     return product;
 }
 multiplyAll([1,2],[3,4],[5,6,7]);
+
+
+for(counter =1; counter < 4; counter++){
+    console.log(counter);
+    for(countertwo = 1 ; countertwo < 4 ; countertwo++){
+
+    }
+}
+
+function updateRecords(object, id, prop, value) {
+    if (prop !== 'tracks' && value !== "") {
+      object[id][prop] = value;
+    } else if (prop === "tracks" && !object[id].hasOwnProperty("tracks")) {
+      object[id][prop] = [value];
+    } else if (prop === "tracks" && value !== "") {
+      object[id][prop].push(value);
+    } else if (value === "") {
+      delete object[id][prop];
+    }
+    return object;
+  }
+
+  
+
+  // How to Remove array duplicates
+
+  const array = ['🐑', 1, 2, '🐑', '🐑', 3];
+
+  const test = new Set(array);
+
+   console.log('POP',test);
+  const backToArray = [...test]
+  console.log(backToArray);
+
+
+  const arrays = ['🐑', 1, 2, '🐑', '🐑', 3];
+
+ console.log(arrays.indexOf('🐑'));
+
+
+ array.filter((item,index) => {
+     console.log(
+         'It',item,
+         index,
+         array.indexOf(item),
+         array.indexOf(index) === index
+     );
+    
+ });
