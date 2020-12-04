@@ -5,7 +5,9 @@
 <b>Day 9 </b> -  ❄ Make it snow ❄ - JavaScript DOM Tutorial <br/>
 <b>Day 10 </b> - Array Foreach <br/>
 <b>Day 11 </b> Static Keyword <br/>
-<b> Day 12 - Dec 1 </b> JavaScript Best Practices - Using Prototypes
+<b> Day 12 </b> JavaScript Best Practices - Using Prototypes
+<b> Day 13 </b> Recall
+
 
 
 

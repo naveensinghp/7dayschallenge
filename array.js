@@ -81,12 +81,6 @@ function updateRecords(object, id, prop, value) {
  console.log(arrays.indexOf('🐑'));
 
 
- array.filter((item,index) => {
-     console.log(
-         'It',item,
-         index,
-         array.indexOf(item),
-         array.indexOf(index) === index
-     );
-    
- });
+ function array(){
+     console.log('Test');
+ }
