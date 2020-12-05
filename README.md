@@ -7,6 +7,8 @@
 <b>Day 11 </b> Static Keyword <br/>
 <b> Day 12 </b> JavaScript Best Practices - Using Prototypes
 <b> Day 13 </b> Recall
+<b> Day 14 </b> ES6: Use the Rest Parameter with Function Parameters
+
 
 
 
