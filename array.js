@@ -81,6 +81,16 @@ function updateRecords(object, id, prop, value) {
  console.log(arrays.indexOf('🐑'));
 
 
- function array(){
-     console.log('Test');
- }
+function multiplyall(arr){
+    // console.log(arr.length); 3 
+    let product = 1;
+    for(let i =0; i < arr.length; i++){
+        //console.log(arr);
+        for(let j=0; j<a[i]; j++){
+            console.log(a[i][j])
+        }
+    }
+    return product;
+}
+
+multiplyall([[1,2],[3,4],[5,6,7]])
