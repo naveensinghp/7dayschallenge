@@ -123,3 +123,10 @@ var arr1 = [0,1,2];
 var arr2 = [3,4,5];
 arr1 = [...arr1,"Naveen",...arr2];
 console.log(arr1);
+
+// Split the string 
+
+const string = 'Hello World';
+console.log('[...string]',[...string])
+console.log('Array.form(string)',Array.from(string));
+console.log('Object.assing([],string)',Object.assign([],string));
