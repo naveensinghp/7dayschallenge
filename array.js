@@ -110,23 +110,7 @@ function addThree(x,y,z){
 var args = [0,1,2];
 addThree(...args);
 
+const array = [1,3,80];
+console.log('max',Math.array());
 
-// Copy array 
-var arrs = [1,2,3];
-var arr2 = [...arrs];
-arr2.push(4);
-console.log('arrs',arrs);
-console.log('arr2',arr2);
 
-// Concat the array
-var arr1 = [0,1,2];
-var arr2 = [3,4,5];
-arr1 = [...arr1,"Naveen",...arr2];
-console.log(arr1);
-
-// Split the string 
-
-const string = 'Hello World';
-console.log('[...string]',[...string])
-console.log('Array.form(string)',Array.from(string));
-console.log('Object.assing([],string)',Object.assign([],string));

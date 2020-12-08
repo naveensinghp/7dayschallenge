@@ -10,6 +10,8 @@
 <b> Day 14 </b> ES6: Use the Rest Parameter with Function Parameters
 <b> Day 15 </b> CSS Work
 <b> Day 16 </b> 4 Ways to Convert String to Character Array in JavaScript
+<b> Day 17 </b> Math.max() in JS
+
 
 
 
