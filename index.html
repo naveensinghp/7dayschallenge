@@ -65,8 +65,11 @@
   </audio> -->
   <script>
       // start 22-11-2020
-      var starteddate = new Date('22-11-2020');
-      console.log('POP',starteddate);
+      var starteddate = new Date("2020-11-22");
+      var test1 = starteddate.getDate();
+      var test2 = new Date().getDate();
+      console.log(test2);
+      console.log('POP',starteddate.getDate());
       var challenge = 100;
       var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
       var today = new Date();
@@ -77,6 +80,6 @@
          document.getElementById("days").innerHTML = days[today.getDay()];
 
       }
-      console.log(today);
+
   </script>
 </html>
