@@ -26,3 +26,5 @@ const isPerson = true;
 const hasAge = false
 const canDance = true
 
+// Day 10
+
