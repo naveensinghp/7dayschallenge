@@ -26,5 +26,23 @@ const isPerson = true;
 const hasAge = false
 const canDance = true
 
-// Day 10
+// Day 10 : Friday
 
+// Wrong Way 
+function teaAndSugar()
+
+
+// correct way 
+function tea() 
+function sugar()
+
+
+// Day 11 : Sat
+console.log('%cHello','color:green;background:yellow;font-size:24px;');
+
+
+// Day 12: Sunday
+
+
+
+  

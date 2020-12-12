@@ -114,3 +114,6 @@ const array = [1,3,80];
 console.log('max',Math.array());
 
 
+
+
+
