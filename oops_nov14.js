@@ -14,6 +14,8 @@ let rate = 20;
 
 
 
+
+
 function getWage(baseSalary,overTime,rate){
     return baseSalary + (overTime * rate);
 }
@@ -28,7 +30,7 @@ let employee = {
 }
 console.log(employee.getWage());
 
-// Encapsulation Example 2 
+// Encapsulation Example 2
 
 class Student {
     constructor(){
@@ -56,5 +58,5 @@ stu.setName('NaveenSingh');
 console.log(stu.howName());
 
 
-// Abstraction 
-//- Example to understand the Abstraction concept - DVD Player, We don't care about internal Board of Player, We only click play button 
+// Abstraction
+//- Example to understand the Abstraction concept - DVD Player, We don't care about internal Board of Player, We only click play button
