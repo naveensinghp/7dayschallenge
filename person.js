@@ -5,3 +5,5 @@ class Person {
         this.lastname = lastname
     }
 }
+
+// JS Event Listener

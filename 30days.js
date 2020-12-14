@@ -42,6 +42,14 @@ console.log('%cHello','color:green;background:yellow;font-size:24px;');
 
 
 // Day 12: Sunday
+// JS Essentials: Falsy Values
+false 
+undefined 
+null 
+NaN 
+0 
+
+// Day 13: Monday 
 
 
 

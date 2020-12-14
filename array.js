@@ -114,6 +114,43 @@ const array = [1,3,80];
 console.log('max',Math.array());
 
 
+// From the two arrays return only unique element
+
+const arr1 = [1,2,3,5];
+
+const arr2 = [1,2,3,4,5];
+
+const diffArray = arr1.concat(arr2).filter(val => !arr1.includes(val) || !arr2.includes(val))
+
+function diffArray(arr1,arr2){
+    return [...diff(arr1,arr2),...diff(arr2,arr1)];
+
+    function diff(a,b){
+        return a.filter(item => b.indexOf(item) === -1)
+    }
+}
+
+
+function diffArray(arr1,arr2){
+    let newArr = [];
+    function onlyInFirst(first,second){
+        // Looping through an array to find elements that don't exist in another array
+
+    for(let i = 0 ; i < first.length; i++){
+        if(second.indexOf(first[i]=== -1)){
+            newArr.push(first[i]);
+        }
+    }
+    }
+}
 
 
 
+const user = { 
+    johnDoe : {
+        age: 34, email
+    }
+}
+
+
+const { johnDoe: { age,email}} = user
