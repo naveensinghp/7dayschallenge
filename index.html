@@ -15,7 +15,7 @@
     <!--<script src="oops_nov14.js"></script> -->
     <!-- <script src="oops_nov15.js"></script> -->
     <script src="array.js"></script>
-    <script src="30days.js"></script>
+    <!-- <script src="30days.js"></script> -->
 
     <!-- <script src="snowflakes.js"></script> -->
 
@@ -29,16 +29,45 @@
 <input id="search" type="text">
 <button>Search</button>   
 <p></p> -->
-<h4 class="alert alert-info text-center">
+<!-- <h4 class="alert alert-info text-center">
     #100DaysofCode - Day 
     <span id="presentday"></span>
     <span id="days"></span>
-</h4>
+</h4> -->
+<hr>
+    <div class="grandparent">
+        <div class="parent">
+            <div class="child"></div>
+        </div>
+    </div>
+
 </body>
 <style>
-    /* body{
-        background-color: #323975;
-    } */
+    body {
+        margin: 0;
+        min-height: 100vh;
+    }
+    body, div{
+        /*background-color: #323975; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .grandparent {
+        width:200px;
+        height: 200px;
+        background-color: red;
+    }
+    .parent {
+        width:130px;
+        height: 130px;
+        background-color: blue;
+    }
+    .child {
+        width: 60px;
+        height: 60px;
+        background-color: green;
+    }
     .fa-snowflake-o{
         color: #fff;
         position: absolute;
@@ -58,12 +87,79 @@
   margin: 10px;
 }
 </style>
+<script>
+const grandparents = document.querySelector(".grandparent");
+const parents = document.querySelector(".parent");
+const child = document.querySelector(".child");
+
+
+
+grandparents.addEventListener("click", e => {
+    console.log('GrandParent 1 Bubble');
+},{ once: true })
+
+// parents.addEventListener("click", e => {
+//     e.stopPropagation();
+//     console.log('Parents 1 Capture');
+// },{capture: true })
+
+parents.addEventListener("click", printHi)
+
+
+setTimeout(() => {
+    parents.removeEventListener("click",printHi)
+},2000)
+
+
+child.addEventListener("click", e => {
+    console.log('Child Bubble');
+})
+
+
+
+document.addEventListener("click", e =>{
+    console.log('Document Bubble');
+})
+
+function printHi(){
+    console.log('HI');
+}
+
+const divs = document.querySelectorAll('div');
+
+// divs.forEach(div =>{
+//     div.addEventListener("click",() => {
+//         console.log('Hellp');
+//     })
+// })
+
+
+addGlobalEventListenet("click","div",e => {
+    console.log('HI');
+})
+
+// using callback 
+
+function addGlobalEventListenet(type,selector,callback){
+    document.addEventListener(type, e => {
+        if(e.target.matches(selector)) callback(e)
+    })
+}
+
+
+// new div 
+const newdivs = document.createElement("div")
+newdivs.style.width = "200px";
+newdivs.style.height = "200px";
+newdivs.style.backgroundColor = 'purple';
+document.body.append(newdivs)
+</script>
 <!-- 
 <audio controls="true" autoplay="false" muted="true">
     <source src="test.mp3" type="audio/mpeg" />
     Your browser does not support the audio tag.
   </audio> -->
-  <script>
+  <!-- <script>
       // start 22-11-2020
       var starteddate = new Date("2020-11-22");
       var test1 = starteddate.getDate();
@@ -81,5 +177,5 @@
 
       }
 
-  </script>
+  </script> -->
 </html>

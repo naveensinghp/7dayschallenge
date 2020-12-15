@@ -17,7 +17,7 @@ console.log('Object.assing([],string)',Object.assign([],string));
 
 
 // Day 8: Math.max()
-const array = [1,3,80];
+const num = [1,3,80];
 console.log('max',Math.array());
 
 // Day 9 Better Boolean value 
@@ -29,28 +29,36 @@ const canDance = true
 // Day 10 : Friday
 
 // Wrong Way 
-function teaAndSugar()
+//function teaAndSugar()
 
 
 // correct way 
-function tea() 
-function sugar()
+//function tea()
+//function sugar()
 
 
 // Day 11 : Sat
-console.log('%cHello','color:green;background:yellow;font-size:24px;');
+//console.log('%cHello', 'color: green; background: yellow; font-size: 30px');
+
 
 
 // Day 12: Sunday
 // JS Essentials: Falsy Values
-false 
-undefined 
-null 
-NaN 
-0 
+// false 
+// undefined 
+// null 
+// NaN 
+// 0 
 
 // Day 13: Monday 
+//<s> Text no longer relevant </s>
 
+// Day 14: Tuesday 
+// 5 Way to append item to array in JS
 
+const name = ['Naveen'];
+array.push('Singh');
+
+console.log(arrays);
 
   
