@@ -18,7 +18,7 @@ console.log('Object.assing([],string)',Object.assign([],string));
 
 // Day 8: Math.max()
 const num = [1,3,80];
-console.log('max',Math.array());
+
 
 // Day 9 Better Boolean value 
 
@@ -55,10 +55,35 @@ const canDance = true
 
 // Day 14: Tuesday 
 // 5 Way to append item to array in JS
-
 const name = ['Naveen'];
-array.push('Singh');
+name.push('Singh');
 
-console.log(arrays);
 
-  
+// Day 15 
+// window.location Cheatsheet
+// https://www.samanthaming.com/tidbits/?filter=JS#2
+
+
+
+// Day 16 
+
+// 3 way to clone object 
+
+const food = { beef: '🥩', bacon: '🥓' }
+
+// Spread {...food}
+console.log('1 way',{...food});
+
+// object assign
+console.log('2nd way',Object.assign({},food));
+
+// JSON 
+console.log('3rd way',JSON.parse(JSON.stringify(food)));
+
+const obj = { one :1, two:2}
+const obj2 = obj; 
+obj2.three =3;
+console.log(
+    'Obj 1',obj,
+    'obj 2',obj2
+)
