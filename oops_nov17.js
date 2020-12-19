@@ -16,6 +16,8 @@ class Shape {
 
 
 
+
+
 class Square extends Shape {
     draw(){
         return 'I m Square';
@@ -27,6 +29,8 @@ class Circle extends Shape {
         return 'Im Circle';
     }
 }
+
+
 
 let et = new Shape();
 console.log(et.draw());
