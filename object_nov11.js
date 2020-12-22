@@ -2,6 +2,9 @@
 // Properties
 // methods 
 
+
+
+
 //ObjectName.propertyName
 
 var myCar = new Object();
